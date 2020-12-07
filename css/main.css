@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 600px){
+    .block{
+        width: 100vw;
+        height: auto;
+    }
+}
+@media (min-width: 600px){
+    .block{
+        width: 50vw;
+        height: auto;
+    }
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.block img{
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+}
